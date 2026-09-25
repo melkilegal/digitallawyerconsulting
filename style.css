@@ -229,6 +229,7 @@ nav a:hover {
 .service-head {
     max-width: 900px;
     margin: 0 auto 56px;
+    text-align: center;
 }
 
 .service-head h2 {
@@ -237,6 +238,10 @@ nav a:hover {
     font-weight: 500;
     letter-spacing: -0.3px;
     color: color-mix(in srgb, var(--accent) 80%, white 20%);
+}
+
+#services .service-head h2 {
+    color: #f1f3f5;
 }
 
 /* --- the glow card, colored by --accent --- */
