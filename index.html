@@ -17,10 +17,9 @@
         </nav>
     </header>
 
-    <section class="hero" id="hero">
+    <section class="hero" id="hero" style="--accent:#5fd0ff;">
         <!-- Layer 0: Background Canvas -->
         <canvas id="network-bg"></canvas>
-
         <!-- Container positioning the Text Box and Robot Head -->
         <div class="hero-container">
             <!-- Text Box (Layered over canvas to prevent text overlap) -->
@@ -31,7 +30,13 @@
                     Remote legal support for businesses building in technology, data,
                     and emerging digital markets.
                 </p>
-                <a href="#contact" class="button">Book a call</a>
+                <div class="hero-actions">
+                    <a href="#contact" class="button">Book a call</a>
+                    <button class="share-btn" data-share-title="Digital Lawyer Consulting — Legal counsel for the digital economy." data-share-url="#hero">
+                        <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                        <span class="share-label">Share</span>
+                    </button>
+                </div>
             </div>
 
             <!-- Robot Head Image (Scales to 1/3+ screen width on the right) -->
@@ -53,7 +58,6 @@
          ============================================================ -->
     <section class="service-page" id="services" style="--accent:#2e9dff;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
             <h2>Legal Services for the Digital Economy</h2>
         </div>
@@ -104,12 +108,15 @@
             <a href="https://www.melkilegal.com" class="pill">Home</a>
             <a href="#about" class="pill">About</a>
             <a href="#contact" class="pill">Contact us</a>
+            <button class="share-btn" data-share-title="Legal Services for the Digital Economy — Digital Lawyer Consulting" data-share-url="#services">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
     <section class="service-page" id="content-creators" style="--accent:#22d3ee;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
             
         </div>
@@ -144,12 +151,15 @@
             <a href="https://www.melkilegal.com" class="pill">Home</a>
             <a href="#about" class="pill">About</a>
             <a href="#contact" class="pill">Contact us</a>
+            <button class="share-btn" data-share-title="Legal Support for Content Creators & Influencers — Digital Lawyer Consulting" data-share-url="#content-creators">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
     <section class="service-page" id="digital-tech-ai" style="--accent:#2dd4bf;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
            
         </div>
@@ -184,12 +194,15 @@
             <a href="https://www.melkilegal.com" class="pill">Home</a>
             <a href="#about" class="pill">About</a>
             <a href="#contact" class="pill">Contact us</a>
+            <button class="share-btn" data-share-title="Digital, Technology & AI Legal Services — Digital Lawyer Consulting" data-share-url="#digital-tech-ai">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
     <section class="service-page" id="general-legal" style="--accent:#6366f1;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
            
         </div>
@@ -224,12 +237,15 @@
             <a href="https://www.melkilegal.com" class="pill">Home</a>
             <a href="#about" class="pill">About</a>
             <a href="#contact" class="pill">Contact us</a>
+            <button class="share-btn" data-share-title="General Legal & Litigation Services — Digital Lawyer Consulting" data-share-url="#general-legal">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
     <section class="service-page" id="ngo-contracts" style="--accent:#38bdf8;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
            
         </div>
@@ -268,12 +284,15 @@
             <a href="https://www.melkilegal.com" class="pill">Home</a>
             <a href="#about" class="pill">About</a>
             <a href="#contact" class="pill">Contact us</a>
+            <button class="share-btn" data-share-title="International Organization & NGO Contracts Support — Digital Lawyer Consulting" data-share-url="#ngo-contracts">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
     <section class="service-page" id="about" style="--accent:#818cf8;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
             <h2>About</h2>
         </div>
@@ -312,13 +331,16 @@
             <a href="https://www.melkilegal.com" class="pill">Home</a>
             <a href="#services" class="pill">Services</a>
             <a href="#contact" class="pill">Contact us</a>
+            <button class="share-btn" data-share-title="About Melquisedic L. Maitim — Digital Lawyer Consulting" data-share-url="#about">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
 
     <section class="service-page" id="contact" style="--accent:#7dd3fc;">
         <canvas class="service-bg"></canvas>
-
         <div class="service-head">
             <h2>Contact</h2>
         </div>
@@ -367,6 +389,10 @@
             <a href="#hero" class="pill">Services</a>
             <a href="#about" class="pill">About</a>
             <a href="https://www.melkilegal.com/#practice" class="pill">Practice Areas</a>
+            <button class="share-btn" data-share-title="Contact — Digital Lawyer Consulting" data-share-url="#contact">
+                <svg viewBox="0 0 24 24" class="share-icon" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L7.04 9.81A3 3 0 1 0 5 15.2c.76 0 1.44-.3 1.96-.77l7.15 4.19c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                <span class="share-label">Share</span>
+            </button>
         </nav>
     </section>
 
@@ -376,5 +402,6 @@
 
     <script src="script.js"></script>
     <script src="offerings-bg.js"></script>
+    <script src="share.js"></script>
 </body>
 </html>
