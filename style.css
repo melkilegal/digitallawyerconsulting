@@ -569,3 +569,57 @@ footer {
         border-radius: 16px;
     }
 }
+
+/* =========================
+   LINKEDIN TEXT LOGO + WHATSAPP LINK
+   ========================= */
+
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.li-in {
+    display: inline-block;
+    margin-left: 2px;
+    padding: 0 4px 1px;
+    background: #0a66c2;
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.15;
+    border-radius: 3px;
+}
+
+.linkedin-logo {
+    display: inline-flex;
+    align-items: center;
+    color: #f1f3f5;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.linkedin-logo:hover {
+    opacity: 0.85;
+}
+
+.contact-wa {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wa-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    fill: var(--accent);
+}
+
+.wa-icon .wa-handset {
+    fill: #0a0e13;
+}
